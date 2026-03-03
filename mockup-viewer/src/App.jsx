@@ -247,6 +247,16 @@ const MOCKUP_REGISTRY = [
     description: 'Lab calendar and scheduling management',
     specPath: null,
   },
+
+  // ─── Figma-only entries (no JSX mockup) ───
+  {
+    name: 'Catalyst Lab Data Assistant',
+    category: 'system',
+    component: null,
+    description: 'AI-powered lab data assistant with natural language querying, wizard-based report building, and contextual help',
+    specPath: null,
+    figmaUrl: 'https://www.figma.com/make/poDXKSr2IBgKbbjB1Fh9Sj/OpenELIS-Global-Template--Copy-?node-id=0-1',
+  },
 ];
 
 const GITHUB_BASE = 'https://github.com/caseyi/openelis-work/blob/main/';
@@ -403,6 +413,11 @@ function App() {
           </div>
           <p style={styles.description}>{selectedMockup.description}</p>
           <div style={styles.links}>
+            {selectedMockup.figmaUrl && (
+              <a href={selectedMockup.figmaUrl} target="_blank" rel="noopener" style={styles.figmaLink}>
+                <span style={styles.figmaIcon}>◆</span> Open in Figma
+              </a>
+            )}
             {selectedMockup.specPath && (
               <a href={GITHUB_BASE + selectedMockup.specPath} target="_blank" rel="noopener" style={styles.link}>
                 View Spec on GitHub
@@ -410,11 +425,30 @@ function App() {
             )}
           </div>
           <div style={styles.preview}>
-            <Suspense fallback={<div style={styles.loading}>Loading mockup...</div>}>
-              <ErrorBoundary name={selectedMockup.name}>
-                <selectedMockup.component />
-              </ErrorBoundary>
-            </Suspense>
+            {selectedMockup.component ? (
+              <Suspense fallback={<div style={styles.loading}>Loading mockup...</div>}>
+                <ErrorBoundary name={selectedMockup.name}>
+                  <selectedMockup.component />
+                </ErrorBoundary>
+              </Suspense>
+            ) : selectedMockup.figmaUrl ? (
+              <div style={styles.figmaEmbed}>
+                <iframe
+                  src={selectedMockup.figmaUrl.replace('/make/', '/embed/') + '&embed-host=share'}
+                  style={styles.figmaIframe}
+                  allowFullScreen
+                  title={selectedMockup.name}
+                />
+                <p style={styles.figmaFallback}>
+                  If the embed doesn't load,{' '}
+                  <a href={selectedMockup.figmaUrl} target="_blank" rel="noopener" style={styles.link}>
+                    open directly in Figma
+                  </a>
+                </p>
+              </div>
+            ) : (
+              <div style={styles.loading}>No preview available for this entry.</div>
+            )}
           </div>
         </div>
       ) : (
@@ -432,7 +466,10 @@ function App() {
               >
                 <div style={styles.cardHeader}>
                   <span style={styles.badge}>{categoryLabels[mockup.category]}</span>
-                  {mockup.specPath && <span style={styles.specBadge}>has spec</span>}
+                  <div style={{ display: 'flex', gap: 4 }}>
+                    {mockup.figmaUrl && <span style={styles.figmaBadge}>figma</span>}
+                    {mockup.specPath && <span style={styles.specBadge}>has spec</span>}
+                  </div>
                 </div>
                 <h3 style={styles.cardTitle}>{mockup.name}</h3>
                 <p style={styles.cardDesc}>{mockup.description}</p>
@@ -493,6 +530,12 @@ const styles = {
   preview: { border: '1px solid #e0e0e0', borderRadius: 8, padding: 24, background: '#f4f4f4', minHeight: 400, overflow: 'auto' },
   loading: { textAlign: 'center', padding: 40, color: '#6f6f6f' },
   empty: { gridColumn: '1 / -1', textAlign: 'center', padding: 60, color: '#6f6f6f', fontSize: 15 },
+  figmaLink: { display: 'inline-flex', alignItems: 'center', gap: 6, background: '#1e1e1e', color: '#fff', padding: '6px 14px', borderRadius: 6, fontSize: 14, textDecoration: 'none', fontWeight: 500 },
+  figmaIcon: { color: '#a259ff', fontSize: 14 },
+  figmaBadge: { background: '#f3e8ff', color: '#7c3aed', padding: '2px 8px', borderRadius: 12, fontSize: 11, fontWeight: 600 },
+  figmaEmbed: { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 },
+  figmaIframe: { width: '100%', height: 600, border: '1px solid #e0e0e0', borderRadius: 8 },
+  figmaFallback: { color: '#6f6f6f', fontSize: 13 },
 };
 
 export default App;

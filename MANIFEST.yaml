@@ -580,6 +580,16 @@
   links: {}
   added: "2026-03-03"
 
+- id: catalyst-lab-data-assistant
+  type: figma
+  path: null
+  category: system
+  description: AI-powered lab data assistant with natural language querying, wizard-based report building, and contextual help
+  figma_url: "https://www.figma.com/make/poDXKSr2IBgKbbjB1Fh9Sj/OpenELIS-Global-Template--Copy-?node-id=0-1"
+  links:
+    jira: "https://uwdigi.atlassian.net/browse/OGC-70"
+  added: "2026-03-03"
+
 # ─── Other ──────────────────────────────────────────────────
 
 - id: tat-dashboard

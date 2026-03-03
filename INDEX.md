@@ -79,6 +79,7 @@ Master index of all designs. Each feature has a co-located `.jsx` mockup and `.m
 | Audit Trail | [audit-trail.jsx](designs/system/audit-trail.jsx) | [audit-trail.md](designs/system/audit-trail.md) |
 | Help Menu | [help-menu.jsx](designs/system/help-menu.jsx) | [help-menu.md](designs/system/help-menu.md) |
 | Analyzer Import | [analyzer-import.jsx](designs/system/analyzer-import.jsx) | [analyzer-import.md](designs/system/analyzer-import.md) |
+| Catalyst Lab Data Assistant | [Figma](https://www.figma.com/make/poDXKSr2IBgKbbjB1Fh9Sj/OpenELIS-Global-Template--Copy-?node-id=0-1) | — |
 
 ## Other
 
