@@ -945,8 +945,8 @@ CREATE INDEX idx_upload_by_user ON analyzer_file_upload(uploaded_by, uploaded_at
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-02-20 | Casey / Claude | Initial release — basic upload workflow |
-| 1.1 | 2025-02-21 | Casey / Claude | Sub-menu navigation, English labels, localization key table |
-| 1.2 | 2025-02-22 | Casey / Claude | Cross-references to OGC-329 and OGC-325 |
-| 2.0 | 2025-02-23 | Casey / Claude | Version label bump, comprehensive scope |
-| 3.0 | 2026-02-24 | Casey / Claude | **Major**: Slot-based plugin preview system with compiled-in component registry. PreviewSlotProps contract with `mode` prop for upload vs. review contexts. Review slot on Analyzer Results page for backend-imported runs. customData persistence on analyzer_run table. TB-Profiler preview split to separate story. Error boundary + Suspense fallback. Upload audit table. Plugin-specific validation codes. |
+| 1.0 | 2025-02-20 | Casey Iiams-Hauser | Initial release — basic upload workflow |
+| 1.1 | 2025-02-21 | Casey Iiams-Hauser | Sub-menu navigation, English labels, localization key table |
+| 1.2 | 2025-02-22 | Casey Iiams-Hauser | Cross-references to OGC-329 and OGC-325 |
+| 2.0 | 2025-02-23 | Casey Iiams-Hauser | Version label bump, comprehensive scope |
+| 3.0 | 2026-02-24 | Casey Iiams-Hauser | **Major**: Slot-based plugin preview system with compiled-in component registry. PreviewSlotProps contract with `mode` prop for upload vs. review contexts. Review slot on Analyzer Results page for backend-imported runs. customData persistence on analyzer_run table. TB-Profiler preview split to separate story. Error boundary + Suspense fallback. Upload audit table. Plugin-specific validation codes. |

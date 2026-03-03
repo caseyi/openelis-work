@@ -3,7 +3,7 @@
 
 **Document Version:** 3.0  
 **Date:** February 18, 2026  
-**Author:** OpenELIS Global Implementation Team  
+**Author:** Casey Iiams-Hauser  
 **Mockup Reference:** `nce-results-entry-v2.jsx`
 
 ---

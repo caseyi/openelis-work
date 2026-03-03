@@ -4,7 +4,7 @@ Comprehensive Design Session Transcript
 Date: February 27–March 3, 2026
 Jira Tickets: OGC-325 (HL7), OGC-337 (ASTM v1.2 Profiles)
 Related Tickets: OGC-324 (ASTM Analyzer Mapping Templates)
-Author: Casey Iiams-Hauser (with Claude AI assistance)
+Author: Casey Iiams-Hauser
 Profiling Approach: 1.2 style for ASTM and HL7 analyzer integrations
 
 ## Purpose of This Document
@@ -953,7 +953,7 @@ Per the 1.2 style profiling approach for ASTM and HL7 analyzer integrations:
 
 **Status:** Complete
 
-**Author:** Casey Iiams-Hauser (with Claude AI assistance)
+**Author:** Casey Iiams-Hauser
 
 **Related Jira Tickets:**
 - OGC-325: HL7 Analyzer Mapping Addendum v1.1

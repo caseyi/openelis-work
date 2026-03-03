@@ -3,7 +3,7 @@
 
 **Document Version:** 1.2  
 **Date:** February 9, 2026  
-**Author:** OpenELIS Global Implementation Team  
+**Author:** Casey Iiams-Hauser  
 **Related Specification:** Electronic Signature for 21 CFR Part 11 Compliance (v1.0)
 
 ---

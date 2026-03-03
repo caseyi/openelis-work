@@ -667,5 +667,5 @@ All actions are logged:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-19 | Claude | Initial draft — single-level validation page |
-| 2.0 | 2026-02-26 | Claude | Multi-level validation pipeline, admin configuration, role-based levels, auto-validation, per-lab-unit overrides, localization tags |
+| 1.0 | 2025-12-19 | Casey Iiams-Hauser | Initial draft — single-level validation page |
+| 2.0 | 2026-02-26 | Casey Iiams-Hauser | Multi-level validation pipeline, admin configuration, role-based levels, auto-validation, per-lab-unit overrides, localization tags |

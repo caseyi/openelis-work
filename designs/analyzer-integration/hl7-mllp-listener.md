@@ -880,4 +880,4 @@ Some newer instruments use HL7 v2.5.1 instead of v2.3.1. The segment structure i
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-02-20 | Casey / Claude | Initial release |
+| 1.0 | 2025-02-20 | Casey Iiams-Hauser | Initial release |

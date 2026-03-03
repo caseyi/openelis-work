@@ -3,7 +3,7 @@
 
 **Document Version:** 1.0  
 **Date:** November 13, 2025  
-**Author:** Implementation Planning Team
+**Author:** Casey Iiams-Hauser
 
 ---
 

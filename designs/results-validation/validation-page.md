@@ -745,4 +745,4 @@ All actions are logged:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-19 | Claude | Initial draft |
+| 1.0 | 2025-12-19 | Casey Iiams-Hauser | Initial draft |
