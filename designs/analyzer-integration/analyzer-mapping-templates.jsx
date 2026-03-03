@@ -962,7 +962,7 @@ export default function AnalyzerMappingApp() {
     <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
       <div style={{ padding: "20px 28px", background: tk.white, borderBottom: `1px solid ${tk.g100}`, display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div>
-          <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 15, fontWeight: 600, marginBottom: 4 }}><span style={{ color: tk.g600 }}>{t("nav.admin")}</span><span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span><span>{t("nav.analyzers")}</span></div>
+          <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 15, fontWeight: 600, marginBottom: 4 }}><span style={{ color: tk.g500 }}>Admin</span><span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span><span>Analyzer Management</span></div>
           <div style={{ fontSize: 13, color: tk.g500 }}>{t("analyzer.list.subtitle")}</div>
         </div>
         <button style={{ padding: "10px 20px", fontSize: 13, fontWeight: 500, background: tk.blue, color: tk.white, border: "none", cursor: "pointer" }} onClick={() => openAddModal(true)}>{t("analyzer.list.addAnalyzer")} +</button>
@@ -1052,12 +1052,12 @@ export default function AnalyzerMappingApp() {
       <div style={{ padding: "20px 28px", background: tk.white, borderBottom: `1px solid ${tk.g100}` }}>
         <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 15, fontWeight: 600, marginBottom: 4 }}>
           <span style={{ cursor: "pointer", fontSize: 16 }} onClick={() => setView("list")}>←</span>
-          <span style={{ color: tk.g600 }}>{t("nav.admin")}</span>
-          <span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span>
-          <span style={{ cursor: "pointer" }} onClick={() => setView("list")}>{t("nav.analyzers")}</span>
-          <span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span>
+          <span style={{ color: tk.g500 }}>Admin</span>
+          <span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span>
+          <span style={{ cursor: "pointer" }} onClick={() => setView("list")}>Analyzer Management</span>
+          <span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span>
           <span>{selectedAnalyzer?.name}</span>
-          <span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span>
+          <span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span>
           <span>{activeTab === "testcodes" ? t("mapping.tab.testCodes") : activeTab === "qcrules" ? t("mapping.tab.qcRules") : activeTab === "simulator" ? t("mapping.tab.simulator") : activeTab === "extraction" ? t("mapping.tab.fieldExtraction") : activeTab === "advanced" ? t("mapping.tab.advanced") : activeTab === "preview" ? t("mapping.tab.preview") : activeTab}</span>
         </div>
       </div>
@@ -1445,7 +1445,7 @@ export default function AnalyzerMappingApp() {
         <div style={{ padding: "20px 28px", background: tk.white, borderBottom: `1px solid ${tk.g100}`, display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 15, fontWeight: 600, marginBottom: 4 }}>
-              <span style={{ color: tk.g600 }}>{t("nav.admin")}</span><span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span><span style={{ cursor: "pointer" }} onClick={() => setView("list")}>{t("nav.analyzers")}</span><span style={{ color: tk.g400, fontWeight: 400 }}>{">"}</span><span>{t("profile.library.title")}</span>
+              <span style={{ color: tk.g500 }}>Admin</span><span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span><span style={{ cursor: "pointer" }} onClick={() => setView("list")}>Analyzer Management</span><span style={{ color: tk.g400, fontWeight: 400 }}>{" > "}</span><span>{t("profile.library.title")}</span>
             </div>
             <div style={{ fontSize: 13, color: tk.g500 }}>{t("profile.library.subtitle")}</div>
           </div>
