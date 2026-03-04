@@ -18,6 +18,7 @@ Master index of all designs. Each feature has a co-located `.jsx` mockup and `.m
 | Range Editor | [range-editor.jsx](designs/admin-config/range-editor.jsx) | [range-editor.md](designs/admin-config/range-editor.md) |
 | Result Options | [result-options.jsx](designs/admin-config/result-options.jsx) | [result-options.md](designs/admin-config/result-options.md) |
 | Test Catalog | [test-catalog.jsx](designs/admin-config/test-catalog.jsx) | [test-catalog.md](designs/admin-config/test-catalog.md) |
+| RBAC Management | [rbac-ui-mockup.html](designs/rbac/rbac-ui-mockup.html) | [rbac-revamp-prd.md](designs/rbac/rbac-revamp-prd.md) |
 
 ## Analyzer Integration
 

@@ -76,6 +76,15 @@ const MOCKUP_REGISTRY = [
     specPath: 'designs/admin-config/test-catalog.md',
   },
 
+  {
+    name: 'RBAC Management',
+    category: 'admin-config',
+    component: null,
+    description: 'Role-based access control revamp — role management, permission matrix, user assignment',
+    specPath: 'designs/rbac/rbac-revamp-prd.md',
+    htmlUrl: 'designs/rbac/rbac-ui-mockup.html',
+  },
+
   // ─── Analyzer Integration ───
   {
     name: 'Analyzer File Upload',

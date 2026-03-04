@@ -664,6 +664,26 @@
   links: {}
   added: "2026-03-04"
 
+# ─── RBAC (Role-Based Access Control) ─────────────────────────
+
+- id: rbac-ui-mockup
+  type: mockup
+  path: designs/rbac/rbac-ui-mockup.html
+  category: admin-config
+  description: RBAC revamp UI mockup — role management, permission matrix, user assignment
+  paired_with: rbac-revamp-prd
+  links: {}
+  added: "2026-03-04"
+
+- id: rbac-revamp-prd
+  type: spec
+  path: designs/rbac/rbac-revamp-prd.md
+  category: admin-config
+  description: OpenELIS RBAC Revamp PRD — role-based access control redesign with granular permissions
+  paired_with: rbac-ui-mockup
+  links: {}
+  added: "2026-03-04"
+
 # ─── Other ──────────────────────────────────────────────────
 
 - id: tat-dashboard
