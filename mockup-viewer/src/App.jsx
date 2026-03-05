@@ -87,6 +87,13 @@ const MOCKUP_REGISTRY = [
 
   // ─── Analyzer Integration ───
   {
+    name: 'Sysmex XP Field Mapping',
+    category: 'analyzer-integration',
+    component: null,
+    description: 'Sysmex XP-100/XP-300 ASTM field mapping & bi-directional integration spec',
+    specPath: 'designs/analyzer-integration/sysmex-xp-field-mapping-v0.1.md',
+  },
+  {
     name: 'BioRad CFX Opus Connection Spec',
     category: 'analyzer-integration',
     component: null,
