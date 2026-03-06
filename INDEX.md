@@ -26,6 +26,10 @@ Master index of all designs. Each feature has a co-located `.jsx` mockup and `.m
 |---------|--------|------|
 | Sysmex XP Field Mapping | — | [sysmex-xp-field-mapping-v0.1.md](designs/analyzer-integration/sysmex-xp-field-mapping-v0.1.md) |
 | BioRad CFX Opus Connection Spec | — | [biorad-cfx-opus-analyzer-connection-spec.md](designs/analyzer-integration/biorad-cfx-opus-analyzer-connection-spec.md) |
+| Sysmex XN-L Series Field Mapping | — | [sysmex-xn-field-mapping-v0.1.md](designs/analyzer-integration/sysmex-xn-field-mapping-v0.1.md) |
+| DNA Technology DT-Prime Field Mapping | — | [dna-technology-dtprime-field-mapping-v0.2.md](designs/analyzer-integration/dna-technology-dtprime-field-mapping-v0.2.md) |
+| Tecan Infinite F50 Connection Spec | — | [tecan-infinite-f50-analyzer-connection-spec.md](designs/analyzer-integration/tecan-infinite-f50-analyzer-connection-spec.md) |
+| Thermo Multiskan FC Connection Spec | — | [thermo-multiskan-fc-analyzer-connection-spec.md](designs/analyzer-integration/thermo-multiskan-fc-analyzer-connection-spec.md) |
 | Analyzer File Upload | [analyzer-file-upload.jsx](designs/analyzer-integration/analyzer-file-upload.jsx) | [analyzer-file-upload.md](designs/analyzer-integration/analyzer-file-upload.md) |
 | Analyzer Mapping Templates | [analyzer-mapping-templates.jsx](designs/analyzer-integration/analyzer-mapping-templates.jsx) | [astm-addendum](designs/analyzer-integration/astm-analyzer-mapping-addendum.md), [hl7-addendum](designs/analyzer-integration/hl7-analyzer-mapping-addendum.md) |
 | Flat File Analyzer Config | [flat-file-analyzer-config.jsx](designs/analyzer-integration/flat-file-analyzer-config.jsx) | [flat-file-analyzer-config.md](designs/analyzer-integration/flat-file-analyzer-config.md) |

@@ -310,6 +310,38 @@
   links: {}
   added: "2026-03-05"
 
+- id: sysmex-xn-field-mapping
+  type: spec
+  path: designs/analyzer-integration/sysmex-xn-field-mapping-v0.1.md
+  category: analyzer-integration
+  description: Sysmex XN-L Series (XN-330 through XN-550) ASTM field mapping & host-query bi-directional integration specification
+  links: {}
+  added: "2026-03-06"
+
+- id: dna-technology-dtprime-field-mapping
+  type: spec
+  path: designs/analyzer-integration/dna-technology-dtprime-field-mapping-v0.2.md
+  category: analyzer-integration
+  description: DNA Technology DT-Prime Real-Time PCR — XML file-based export, windows-1251 encoding, qualitative results parsing
+  links: {}
+  added: "2026-03-06"
+
+- id: tecan-infinite-f50-analyzer-connection-spec
+  type: spec
+  path: designs/analyzer-integration/tecan-infinite-f50-analyzer-connection-spec.md
+  category: analyzer-integration
+  description: Tecan Infinite F50 ELISA Reader — Magellan CSV/XML export, absorbance microplate reader integration
+  links: {}
+  added: "2026-03-06"
+
+- id: thermo-multiskan-fc-analyzer-connection-spec
+  type: spec
+  path: designs/analyzer-integration/thermo-multiskan-fc-analyzer-connection-spec.md
+  category: analyzer-integration
+  description: Thermo Scientific Multiskan FC ELISA Reader — SkanIt CSV/TXT export, filter-based microplate photometer integration
+  links: {}
+  added: "2026-03-06"
+
 # ─── Microbiology ───────────────────────────────────────────
 
 - id: amr-module
